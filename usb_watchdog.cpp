@@ -82,7 +82,7 @@ int main(int argc, char **argv) {
 
     //then if there is a problem with the arguments, exit the program
     if (error) {
-        cout << "USAGE: start_usb_watchdog heartbeat_interval refresh_rate\n" << endl;
+        cout << "USAGE: hidusbwatchdog heartbeat_interval refresh_rate\n" << endl;
 
         cout << "heartbeat_interval: a number from 0-2550 seconds specifying how long the watchdog should reboot after losing heartbeat from the host" << endl;
         cout << "refresh_rate: a number in seconds specifying how often to ping the watchdog" << endl;
